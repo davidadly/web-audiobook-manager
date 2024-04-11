@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audiobook Library</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Audiobook Library</h1>
+        <div id="audiobook-list" class="audiobook-list"></div>
+        <audio id="audiobook-player" hidden></audio>
+        <div id="player-controls" class="player-controls">
+            <button id="rewind" class="control-btn">Rewind 5s</button>
+            <div class="progress-bar-container">
+                <input type="range" id="progress-bar" class="progress-bar" value="0" step="0.1">
+            </div>
+            <span id="current-time" class="current-time">00:00:00</span>
+            <button id="fastforward" class="control-btn">Fast Forward 5s</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
