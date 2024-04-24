@@ -1,16 +1,14 @@
 {
-  "name": "web-audiobook-manager",
+  "name": "audiobook-library",
   "version": "1.0.0",
-  "description": "",
-  "main": "script.js",
+  "description": "A simple audiobook library application",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "express": "^4.19.2"
+    "express": "^4.17.1",
+    "yt-dlp-wrap": "^2.3.12",
+    "ytdl-core": "^4.11.5"
   }
 }
